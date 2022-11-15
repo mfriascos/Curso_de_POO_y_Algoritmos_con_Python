@@ -31,6 +31,7 @@
     - [Instancias](#instancias)
     - [Atributos de la Instancia](#atributos-de-la-instancia)
     - [Métodos de Instancia](#métodos-de-instancia)
+- [Tipos de Datos Abstractos y clases, Instancias](#tipos-de-datos-abstractos-y-clases-instancias)
 
 
 # Programación Orientada a Objetos
@@ -116,7 +117,15 @@ hotel.anadir_huespedes(3)
 hotel.checkout(1)
 hotel.ocupacion_total() #2
 ```
+# Tipos de Datos Abstractos y clases, Instancias
 
+En Python todo es un objeto y tiene un tipo
+* Representación de datos y formas de interactuar con ellos. 
+
+formas de interactuar con un objeto
+* Creación 
+* Manipulación 
+* Destrucción 
 
 
 
