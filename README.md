@@ -498,3 +498,36 @@ Llamada al método setter
 
 De esta manera usamos el decorador @property para utilizar getters y setters de una forma más prolija e incluimos una nueva funcionalidad a nuestro método definir_distancia(), al mismo tiempo protegemos el acceso a nuestras variables privadas y cumplimos con el principio de encapsulación.
 
+# Encapsulación, Getters and Setters
+
+* Encapsulación 
+    * Permite agrupar datos y su comportamiento. 
+    * Controla el acceso a dichos datos.
+    * Previene modificaciones no autorizadas.
+
+```python 
+class CasillaDeVotacion():
+
+    def __init__(self, identificador, pais):
+        self.__identificador = identificador
+        self.__pais = pais
+        self.__region = None
+    
+    @property
+    def region(self):
+        return self.__region
+    
+    @region.setter
+    def region(self,region):
+        if region in self.__pais:
+            self.__region = region
+        else:
+            raise ValueError(f'La region {region} no es válida en {self.__pais}')
+
+>>> casilla = CasillaDeVotacion(123,['Ciudad de Mexico','Morelos])
+>>> casilla.region
+None
+>>> casila.region = 'Ciudad de Mexico'
+>>> casilla.region
+'Ciudad de México
+```
