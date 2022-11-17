@@ -32,7 +32,7 @@
     - [Atributos de la Instancia](#atributos-de-la-instancia)
     - [Métodos de Instancia](#métodos-de-instancia)
 - [Tipos de Datos Abstractos y clases, Instancias](#tipos-de-datos-abstractos-y-clases-instancias)
-
+    - [Instancias](#instancias)
 
 # Programación Orientada a Objetos
 
@@ -126,6 +126,80 @@ formas de interactuar con un objeto
 * Creación 
 * Manipulación 
 * Destrucción 
+
+Ventajas: 
+* Decomposición -> Es decir, estructurar objetos más pequeños
+* Abstraccción  
+* Encapsulación -> Esconder ciertos datos que no son importantes para ciertas personas 
+
+```Python 
+# Definición de clase 
+
+class <nombre_de_la_clase>(<super_clase>):
+
+    def __init__(self, <params>):           #Se definen los parametros de inicialización 
+        <expresión>                         #Esta expresión puede ser vacía o se puede inicializar la clase 
+    
+    def <nombre_del_metodo>(self,<params>): #Define la funcionalidad de la clase 
+        <expresión>
+```
+**Ejemplo**
+
+```Python
+# Definición 
+class Persona:
+
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+    def saluda(self, otra_persona):
+        return f"Hola {otra_persona.nombre}, me llamo {self.nombre}."
+
+# Uso
+>>> david = Persona('David',35)
+>>> erika = Persona('Erika',32)
+
+>>> david.saluda(erika)
+"Hola Erika, me llamo David"
+```
+
+## Instancias
+
+* Mientras que la clase es un molde, a los objetos creados se les conoce como instancias. 
+* Cuando se crea una instancia , se ejecuta el método __ init __
+* Todos los métodos de una clase reciben implícitamente como primer parámetro *self*
+* Los atributos de clase nos permiten:
+    * Representar datos 
+    * Procedimientos para interactuar con los mismos(métodos)
+    * Mecanismos para esconder la representación interna 
+* Se accede a los atributos con la notación de punto. 
+* Puede tener atributos privados. Por convención comienza con _
+
+```Python
+class Coordenada:
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def distancia(self, otra_coordendada):
+        x_diff = (self.x - otra_coordendada.x)**2
+        y_diff = (self.y - otra_coordendada.y)**2
+
+        return (x_diff + y_diff)**0.5
+
+
+if __name__ == '__main__':
+    coord_1 = Coordenada(3, 30)
+    coord_2 = Coordenada(4, 8)
+
+    #print(coord_1.distancia(coord_2))
+    print(isinstance(coord_2,Coordenada))   # Nos permite determinar si alguna de estas coordenadas es instancia
+                                            # de coordenada
+```
+
+
 
 
 
