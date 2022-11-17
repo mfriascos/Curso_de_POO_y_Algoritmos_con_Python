@@ -33,6 +33,9 @@
     - [Métodos de Instancia](#métodos-de-instancia)
 - [Tipos de Datos Abstractos y clases, Instancias](#tipos-de-datos-abstractos-y-clases-instancias)
     - [Instancias](#instancias)
+    - [Decomposición](#decomposición)
+    - [Abstracción](#abstracción)
+
 
 # Programación Orientada a Objetos
 
@@ -199,7 +202,16 @@ if __name__ == '__main__':
                                             # de coordenada
 ```
 
+## Decomposición 
+* Partir un problema en problemas más pequeños. 
+* Las clases permiten crear mayores abstracciones en forma de componentes. 
+* Cada clase se encarga de una parte del problemas y el programa se vuelve más fácil de entender. 
 
+## Abstracción 
+
+* Enfocarnos en la información relevante 
+* Separar la información central de los detalles secundarios 
+* Podemos utilizar variables y métodos (privados o públicos)
 
 
 
