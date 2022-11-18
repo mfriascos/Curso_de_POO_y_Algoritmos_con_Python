@@ -38,6 +38,9 @@
 - [Funciones: Base de los Decoradores](#funciones-base-de-los-decoradores)
 - [Setters, Getters y Decorador Property](#setters-getters-y-decorador-property)
 - [Herencia](#herencia)
+- [Introducción a la Complejidad Algoritmica](#introducción-a-la-complejidad-algoritmica)
+	- [Aproximaciones](#aproximaciones)
+	
 
 
 # Programación Orientada a Objetos
@@ -547,4 +550,18 @@ Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar códig
 
 * La habilidad de tomar varias formas 
 * En python , nos permite cambiar el comportamiento de una superclase para  adaptarlo a la subclase 
+
+# Introducción a la Complejidad Algoritmica 
+
+* ¿Por qué comparamos la eficiencia de un algoritmo? 
+
+* Complejidad temporal vs complejidad espacial 
+
+* Podemos definirla como T(n)
+
+## Aproximaciones 
+
+* Cronometrar el tiempo en el que corre un algoritmo 
+* Contar los pasos con una medida abstracta de operación 
+* Contar los pasos conforme nos aproximamos al infinito 
 
