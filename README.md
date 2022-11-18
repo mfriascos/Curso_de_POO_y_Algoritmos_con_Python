@@ -37,6 +37,7 @@
     - [Abstracción](#abstracción)
 - [Funciones: Base de los Decoradores](#funciones-base-de-los-decoradores)
 - [Setters, Getters y Decorador Property](#setters-getters-y-decorador-property)
+- [Herencia](#herencia)
 
 
 # Programación Orientada a Objetos
@@ -531,3 +532,13 @@ None
 >>> casilla.region
 'Ciudad de México
 ```
+
+# Herencia 
+
+* Permite modelar una jerarquía de clases 
+* Permite compartir comportamiento común en la jerarquía 
+* Al padre se le conoce como superclase y al hijo como subclase 
+
+<p align="center"><img width=40% src="./pictures/herencia.webp"></p>
+
+Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar código. La reutilización es uno de los pilares de la POO, de manera que evitemos reinventar la rueda cada vez. Si tenemos un comportamiento que es común entre una serie de objetos de la misma categoría, este comportamiento debe enviarse a un clase superior que permita compartirlo con sus clases hijas. Esto facilita la mantenibilidad del código haciéndolo más estable.
