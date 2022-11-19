@@ -565,3 +565,11 @@ Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar códig
 * Contar los pasos con una medida abstracta de operación 
 * Contar los pasos conforme nos aproximamos al infinito 
 
+# Clases de Complejidad Logaritmica 
+
+* O(1) Constante  		# O -> Output
+* O(n) Lineal
+* O(log n) Logarítmica 
+* O(nlog n) Log lineal 
+* O(n**2) Polinomial
+* O(2**n) Exponencial
