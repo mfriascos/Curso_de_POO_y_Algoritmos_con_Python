@@ -40,7 +40,9 @@
 - [Herencia](#herencia)
 - [Introducción a la Complejidad Algoritmica](#introducción-a-la-complejidad-algoritmica)
 	- [Aproximaciones](#aproximaciones)
-	
+- [Algoritmos de Búsqueda y Ordenación](#algoritmos-de-búsqueda-y-ordenanción)
+	- [Búsqueda Lineal](#búsqueda-lineal)
+	- [Búsqueda Binaria](#búsqueda-binaria)
 
 
 # Programación Orientada a Objetos
@@ -573,3 +575,17 @@ Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar códig
 * O(nlog n) Log lineal 
 * O(n**2) Polinomial
 * O(2**n) Exponencial
+
+# Algoritmos de Búsqueda y Ordenanción 
+
+## Búsqueda Lineal 
+
+* Busca en todos los elementos de manera secuencial 
+* ¿Cuál es el peor caso? 
+
+## Búsqueda Binaria 
+
+* Divide y conquista 
+* El problema se divide en 2 en cada iteración 
+* ¿Cuál es el peor caso ? 
+
