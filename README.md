@@ -703,3 +703,9 @@ Es un algoritmo de divide y conquista. Primero divide una lista en partes iguale
 * Predicción de una Serie 
 * Simplifica la interpretación y las conclusiones acerca de los datos
 
+# Graficado Simple 
+
+* Bokeh permite construir gráficas complejas de manera rápida y con comandos simples 
+* Permite exportar a varios formatos como html, notebooks, imágenes, etc. 
+* Bokeh se puede utilizar en servidor con Flask y Django. 
+
