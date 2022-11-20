@@ -697,3 +697,9 @@ Es un algoritmo de divide y conquista. Primero divide una lista en partes iguale
 * A partir de python3 se incluye en la librería estándar en el módulo venv
 * Ningún ingeniero profesional de Python trabaja sin ellos 
 
+# ¿ Por qué graficar?
+
+* Reconocimiento de patrones 
+* Predicción de una Serie 
+* Simplifica la interpretación y las conclusiones acerca de los datos
+
