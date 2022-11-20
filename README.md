@@ -589,3 +589,6 @@ Un aspecto importantísimo de la Herencia es la posibilidad de reutilizar códig
 * El problema se divide en 2 en cada iteración 
 * ¿Cuál es el peor caso ? 
 
+# Ordenamiento de Burbuja 
+
+El ordenamiento de burbuja es un algoritmo que recorre rápidamente una lista que necesita ordenarse. Compara elementos adyacentes y los intercambia si están en el orden incorrecto. Este procedimiento se repite hasta que no se requieren más intercambios, lo que indica que la lista se encuentra ordenada. 
