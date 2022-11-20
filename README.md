@@ -688,3 +688,4 @@ def ordenamiento_por_insercion(lista):
 
 # Ordenamiento por Mezcla
 
+Es un algoritmo de divide y conquista. Primero divide una lista en partes iguales hasta que quedan sublistas de 1 o 0 elementos. Luego las recombina de forma ordenada. 
