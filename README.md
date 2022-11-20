@@ -47,7 +47,9 @@
 - [Ordenamiento por Inserción](#ordenamiento-por-inserción)
 - [Ordenamiento por Mezcla](#ordenamiento-por-mezcla)
 - [Ambientes Virtuales](#ambientes-virtuales)
-
+- [¿Por qué Graficar](#¿por-qué-graficar)
+- [Graficado Simple](#graficado-simple)
+- [Introducción a la Optimización](#introducción-a-la-optimización)
 
 
 # Programación Orientada a Objetos
@@ -697,7 +699,7 @@ Es un algoritmo de divide y conquista. Primero divide una lista en partes iguale
 * A partir de python3 se incluye en la librería estándar en el módulo venv
 * Ningún ingeniero profesional de Python trabaja sin ellos 
 
-# ¿ Por qué graficar?
+# ¿Por qué Graficar?
 
 * Reconocimiento de patrones 
 * Predicción de una Serie 
@@ -708,4 +710,12 @@ Es un algoritmo de divide y conquista. Primero divide una lista en partes iguale
 * Bokeh permite construir gráficas complejas de manera rápida y con comandos simples 
 * Permite exportar a varios formatos como html, notebooks, imágenes, etc. 
 * Bokeh se puede utilizar en servidor con Flask y Django. 
+
+# Introducción a la Optimización 
+
+* el concepto de optimización permite resolver muchos problemas de manera computacional. 
+* Una función objetivo que debemos maximizar o minimizar. 
+* Una serie de limitantes que debemos respetar 
+
+# El Problema del Morral 
 
