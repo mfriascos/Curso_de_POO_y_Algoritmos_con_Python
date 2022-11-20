@@ -46,6 +46,7 @@
 - [Ordenamiento de Burbuja](#ordenamiento-de-burbuja)
 - [Ordenamiento por Inserción](#ordenamiento-por-inserción)
 - [Ordenamiento por Mezcla](#ordenamiento-por-mezcla)
+- [Ambientes Virtuales](#ambientes-virtuales)
 
 
 
@@ -689,3 +690,10 @@ def ordenamiento_por_insercion(lista):
 # Ordenamiento por Mezcla
 
 Es un algoritmo de divide y conquista. Primero divide una lista en partes iguales hasta que quedan sublistas de 1 o 0 elementos. Luego las recombina de forma ordenada. 
+
+# Ambientes Virtuales 
+
+* Permiten aislar el ambiente para poder instalar diversas versiones de paquetes 
+* A partir de python3 se incluye en la librería estándar en el módulo venv
+* Ningún ingeniero profesional de Python trabaja sin ellos 
+
